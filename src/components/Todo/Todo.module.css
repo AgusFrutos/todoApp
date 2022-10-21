@@ -1,0 +1,76 @@
+.todo_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 50px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.todoForm_container {
+  margin: 20px;
+}
+
+.todoForm_container input {
+  background: transparent;
+  border: solid 1.5px #9e9e9e;
+  border-radius: 10px;
+  color: #f5f5f5;
+  padding: 14px 32px 14px 16px;
+  outline: none;
+}
+
+.todoForm_container input:focus,
+.todoForm_container input:valid {
+  outline: none;
+  border: 1px solid #1a73e8;
+}
+
+.todoForm_container button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.todoForm_container a {
+  text-decoration: none;
+  color: #f5f5f5;
+  margin: 0 10px;
+}
+
+.todoForm_container a:hover {
+  text-decoration: underline;
+}
+
+.todoDetail_container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 120px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #414141;
+}
+
+.todoDetail_container h3 {
+  font-size: 20px;
+  margin: 15px;
+}
+
+.h3done {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.todoDetail_container div {
+  display: flex;
+
+}
+
+.todoDetail_container button {
+  height: 30px;
+  margin: 0 10px;
+}
